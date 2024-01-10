@@ -826,7 +826,7 @@ const _pre_loader_hotkey = function() {
             }, type : page.constants.hotkeyType.defaultKey
             , description: page.message.hotkey_4
             , isVisible : true
-            , isCheckPermission : true
+            , isCheckPermission : false
             , isCanInput : false
         }, {
             keyCode : "81"
