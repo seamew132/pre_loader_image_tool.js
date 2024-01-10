@@ -29,7 +29,7 @@ const _pre_loader_data = function(data) {
     try {
         page.constants.isCO = _common.nvl(data.isCO, false);
         page.constants.taskTalkYn = _common.nvl(data.taskTalkYn, "N");
-        page.constants.bboxRotateYn = _common.nvl(data.bboxRotateYn, "N");
+        page.constants.bboxRotateYn = _common.nvl(data.bboxRotateYn, "Y");
         page.constants.serverCoApiAddQna = _common.nvl(data.serverCoApiAddQna, "");
         page.constants.co = {
             coProjectKey: _common.nvl(data.coProjectKey, "")
@@ -187,7 +187,7 @@ const _pre_loader_data = function(data) {
             }
         }
         page.data.task.tool = [];
-        page.data.useMagicAI = "N";
+        page.data.useMagicAI = "Y";
         if(data.drawingToolList != null) {
             for (let i = 0; i < data.drawingToolList.length; i++) {
                 let tool = data.drawingToolList[i];
