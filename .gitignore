@@ -1,0 +1,15 @@
+```
+# User script and HTML files (likely generated/minified)
+*.user.js
+*.html
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.temp
+*~
+```
+
+Wait, let me reconsider. The HTML file appears to be source code (`source_code.html`) and the user.js files appear to be source code as well. These are not build artifacts but rather the main project files. No build artifacts, dependency directories, or temp files are present in the changes.
+
+(empty)
